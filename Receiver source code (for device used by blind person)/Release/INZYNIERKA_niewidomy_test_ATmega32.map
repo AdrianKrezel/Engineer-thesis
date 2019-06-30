@@ -1,0 +1,539 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              ./wav_player/pff.o (__mulsi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                              ./wav_player/dzwiek.o (__udivmodqi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              ./wav_player/dzwiek.o (__udivmodsi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ./wav_player/dzwiek.o (__do_copy_data)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              ./wav_player/dzwiek.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+                              ./bluetooth/mkuart.o (itoa)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                              ./LCD/lcd44780.o (ltoa)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+                              ./LCD/lcd44780.o (__eerd_byte_m32)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o) (strrev)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o) (__udivmodhi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+slupek              0x1               ./wav_player/dzwiek.o
+UART_TxHead         0x1               ./bluetooth/mkuart.o
+Fno                 0x16              ./wav_player/dzwiek.o
+string              0x2               ./main.o
+nr_buf              0x1               ./wav_player/dzwiek.o
+rb                  0x2               ./wav_player/dzwiek.o
+UART_TxTail         0x1               ./bluetooth/mkuart.o
+Dir                 0x10              ./wav_player/dzwiek.o
+tick                0x2               ./wav_player/dzwiek.o
+can_read            0x1               ./wav_player/dzwiek.o
+buf                 0x400             ./wav_player/dzwiek.o
+FLAGS               0x4               ./wav_player/dzwiek.o
+UART_TxBuf          0x2               ./bluetooth/mkuart.o
+UART_RxHead         0x1               ./bluetooth/mkuart.o
+UART_RxTail         0x1               ./bluetooth/mkuart.o
+Fs                  0x2c              ./wav_player/dzwiek.o
+UART_RxBuf          0x20              ./bluetooth/mkuart.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./wav_player/dzwiek.o
+LOAD ./wav_player/mmc.o
+LOAD ./wav_player/pff.o
+LOAD ./bluetooth/bluetooth.o
+LOAD ./bluetooth/mkuart.o
+LOAD ./LCD/LCD.o
+LOAD ./LCD/lcd44780.o
+LOAD ./main.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x2d9c
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x00000054       0x66 ./wav_player/dzwiek.o
+ *(.progmem*)
+                0x000000ba                . = ALIGN (0x2)
+                0x000000ba                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000ba        0x0 linker stubs
+ *(.trampolines*)
+                0x000000ba                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000ba                __ctors_start = .
+ *(.ctors)
+                0x000000ba                __ctors_end = .
+                0x000000ba                __dtors_start = .
+ *(.dtors)
+                0x000000ba                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000ba        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x000000ba                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000ba        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000c6       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x000000c6                __do_copy_data
+ .init4         0x000000dc       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x000000dc                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000ec        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x000000f4        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x000000f4                __vector_1
+                0x000000f4                __vector_12
+                0x000000f4                __bad_interrupt
+                0x000000f4                __vector_6
+                0x000000f4                __vector_3
+                0x000000f4                __vector_11
+                0x000000f4                __vector_17
+                0x000000f4                __vector_19
+                0x000000f4                __vector_7
+                0x000000f4                __vector_5
+                0x000000f4                __vector_4
+                0x000000f4                __vector_9
+                0x000000f4                __vector_2
+                0x000000f4                __vector_15
+                0x000000f4                __vector_8
+                0x000000f4                __vector_16
+                0x000000f4                __vector_18
+                0x000000f4                __vector_20
+ .text          0x000000f8      0xa88 ./wav_player/dzwiek.o
+                0x00000b50                komunikat_glosowy
+                0x00000664                dzwiek
+                0x00000104                PLAYER_init
+                0x00000128                __vector_10
+                0x000000f8                rcv_spi
+ .text          0x00000b80      0x422 ./wav_player/mmc.o
+                0x00000c34                disk_readp
+                0x00000de8                disk_initialize
+                0x00000f6e                write_close
+                0x00000cf8                disk_writep
+ .text          0x00000fa2     0x1374 ./wav_player/pff.o
+                0x00001656                pf_readdir
+                0x000013e0                pf_lseek
+                0x00001b9e                pf_read
+                0x00001ad0                pf_open
+                0x00001a24                pf_opendir
+                0x00001e5e                pf_write
+                0x000020cc                pf_mount
+ .text          0x00002316      0x24a ./bluetooth/bluetooth.o
+                0x0000236c                bluetooth_receive
+                0x0000238a                bluetooth_receive_connection_status
+                0x00002364                TransmitUSART
+                0x0000235c                ReceiveUSART
+                0x000023ca                BT_receive
+                0x00002316                InitUSART
+                0x000023a8                buforSize
+ .text          0x00002560      0x14c ./bluetooth/mkuart.o
+                0x00002598                uart_puts
+                0x00002628                __vector_13
+                0x0000266a                uart_putint
+                0x00002560                USART_Init
+                0x000025fe                uart_getc
+                0x00002574                uart_putc
+                0x000025b0                __vector_14
+ .text          0x000026ac      0x1b2 ./LCD/LCD.o
+                0x0000271c                wyswietl_numer
+                0x000026ac                start
+ .text          0x0000285e      0x2e8 ./LCD/lcd44780.o
+                0x000029dc                lcd_cls
+                0x000028d6                _lcd_write_byte
+                0x000029cc                lcd_locate
+                0x00002916                lcd_char
+                0x0000298c                lcd_defchar_P
+                0x000028ce                check_BF
+                0x00002a72                lcd_defchar_E
+                0x00002928                lcd_str
+                0x00002906                lcd_write_cmd
+                0x00002ab2                lcd_str_E
+                0x0000295c                lcd_defchar
+                0x00002940                lcd_str_P
+                0x000029e4                lcd_init
+                0x00002b0e                lcd_int
+                0x0000290e                lcd_write_data
+                0x000028a6                _lcd_read_byte
+                0x00002ad6                lcd_hex
+ .text          0x00002b46       0xb6 ./main.o
+                0x00002b46                main
+ .text          0x00002bfc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00002bfc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .text          0x00002bfc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00002bfc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00002bfc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00002bfc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00002bfc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .text          0x00002bfc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .text          0x00002bfc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+ .text          0x00002bfc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .text          0x00002bfc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00002bfc                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00002bfc       0x3e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x00002bfc                __mulsi3
+ .text.libgcc   0x00002c3a       0x18 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                0x00002c3a                __udivmodqi4
+ .text.libgcc   0x00002c52       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00002c52                __udivmodsi4
+ .text.libgcc   0x00002c96        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00002c96        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00002c96        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x00002c96       0x42 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+                0x00002c96                itoa
+ .text.avr-libc
+                0x00002cd8       0x68 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                0x00002cd8                ltoa
+ .text.avr-libc
+                0x00002d40       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+                0x00002d40                __eerd_byte_m32
+ .text.avr-libc
+                0x00002d50       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x00002d50                strrev
+ .text.libgcc   0x00002d70       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00002d70                __udivmodhi4
+                0x00002d98                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00002d98        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00002d98                exit
+                0x00002d98                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00002d98        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00002d9c                _etext = .
+
+.data           0x00800060      0x160 load address 0x00002d9c
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060      0x134 ./wav_player/dzwiek.o
+                0x0080018b                sk2
+                0x0080018a                sk1
+ .data          0x00800194        0x0 ./wav_player/mmc.o
+ .data          0x00800194        0x0 ./wav_player/pff.o
+ .data          0x00800194        0x0 ./bluetooth/bluetooth.o
+ .data          0x00800194        0x0 ./bluetooth/mkuart.o
+ .data          0x00800194       0x1c ./LCD/LCD.o
+ .data          0x008001b0        0x0 ./LCD/lcd44780.o
+ .data          0x008001b0       0x10 ./main.o
+                0x008001be                connected
+                0x008001ba                spacja
+                0x008001bc                disconnected
+ .data          0x008001c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x008001c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x008001c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x008001c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x008001c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x008001c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x008001c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .data          0x008001c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .data          0x008001c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+ .data          0x008001c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .data          0x008001c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x008001c0                . = ALIGN (0x2)
+                0x008001c0                _edata = .
+                0x008001c0                PROVIDE (__data_end, .)
+
+.bss            0x008001c0      0x4a5
+                0x008001c0                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008001c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x008001c0        0x5 ./wav_player/dzwiek.o
+ .bss           0x008001c5        0x3 ./wav_player/mmc.o
+ .bss           0x008001c8        0x2 ./wav_player/pff.o
+ .bss           0x008001ca        0x0 ./bluetooth/bluetooth.o
+ .bss           0x008001ca        0x0 ./bluetooth/mkuart.o
+ .bss           0x008001ca        0x0 ./LCD/LCD.o
+ .bss           0x008001ca        0x0 ./LCD/lcd44780.o
+ .bss           0x008001ca       0x16 ./main.o
+                0x008001d8                niewidomy_int
+                0x008001d4                niewidomy_char
+                0x008001d0                autobusik_int
+                0x008001de                sekundy
+                0x008001cc                autobusik_char
+                0x008001dc                kierunek_A
+                0x008001cb                cyfra
+                0x008001ca                i
+                0x008001df                licznik
+                0x008001dd                kierunek_B
+ .bss           0x008001e0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x008001e0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x008001e0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x008001e0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x008001e0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x008001e0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x008001e0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .bss           0x008001e0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .bss           0x008001e0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+ .bss           0x008001e0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .bss           0x008001e0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x008001e0      0x45d ./wav_player/dzwiek.o
+                0x008001e0                slupek
+                0x008001e1                Fno
+                0x008001f7                nr_buf
+                0x008001f8                rb
+                0x008001fa                Dir
+                0x0080020a                tick
+                0x0080020c                can_read
+                0x0080020d                buf
+                0x0080060d                FLAGS
+                0x00800611                Fs
+ COMMON         0x0080063d       0x26 ./bluetooth/mkuart.o
+                0x0080063d                UART_TxHead
+                0x0080063e                UART_TxTail
+                0x0080063f                UART_TxBuf
+                0x00800641                UART_RxHead
+                0x00800642                UART_RxTail
+                0x00800643                UART_RxBuf
+ COMMON         0x00800663        0x2 ./main.o
+                0x00800663                string
+                0x00800665                PROVIDE (__bss_end, .)
+                0x00002d9c                __data_load_start = LOADADDR (.data)
+                0x00002efc                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800665        0x0
+                0x00800665                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800665                PROVIDE (__noinit_end, .)
+                0x00800665                _end = .
+                0x00800665                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(INZYNIERKA_niewidomy_test_ATmega32.elf elf32-avr)
+LOAD linker stubs
